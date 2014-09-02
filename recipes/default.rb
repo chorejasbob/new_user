@@ -20,3 +20,7 @@ users.each do |login|
     supports	:manage_home => true
   end
 end
+
+users_manage "bobg" do
+  action [ :create ]
+end
